@@ -33,6 +33,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
+  gem 'email_spec'
   gem 'factory_bot_rails'
   gem 'rspec-rails'
   gem 'shoulda-matchers', '~> 4.0'
@@ -58,6 +59,7 @@ group :test do
   gem 'webdrivers'
 end
 
+gem 'devise'
 gem 'rexml'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
